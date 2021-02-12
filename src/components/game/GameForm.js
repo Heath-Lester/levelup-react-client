@@ -5,6 +5,7 @@ import { useHistory } from 'react-router-dom'
 
 export const GameForm = () => {
     const history = useHistory()
+    
     const { createGame, getGameTypes, gameTypes } = useContext(GameContext)
 
     /*
