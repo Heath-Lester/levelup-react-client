@@ -8,7 +8,9 @@ export const Profile = () => {
 
     useEffect(() => {
         getProfile()
+        console.log(profile)
     }, [])
+
 
     return (
         <article className="profile">
