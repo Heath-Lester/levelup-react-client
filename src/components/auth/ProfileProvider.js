@@ -10,6 +10,8 @@ export const ProfileProvider = (props) => {
     */
     const [profile, setProfile] = useState({events:[]})
 
+    console.log(profile)
+
     const getProfile = () => {
         return fetch("http://localhost:8000/profile", {
             headers: {

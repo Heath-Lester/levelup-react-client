@@ -96,7 +96,7 @@ export const EventForm = props => {
                     createEvent(event)
                         .then(() => history.push("/events"))
                 }}
-                className="btn btn-primary">Create Event</button>
+                className="btn btn-2 btn-primary">Create Event</button>
         </form>
     )
 }
